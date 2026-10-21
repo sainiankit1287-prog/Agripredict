@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local application data
+backend/data/*.db
+
+# Machine-learning data and generated artifacts
+ml/data/*
+!ml/data/.gitkeep
+!ml/data/Crop_recommendation.csv
+ml/artifacts/*
+!ml/artifacts/.gitkeep
+!ml/artifacts/crop_recommendation_model.pkl
+
+# Node
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

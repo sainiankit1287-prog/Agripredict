@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 266" role="img" aria-labelledby="title desc">
+  <title id="title">Agriculture leaf logo</title>
+  <desc id="desc">Three green leaves inside an open multicolour ring above a golden curved base.</desc>
+  <defs>
+    <linearGradient id="ringGradient" x1="58" y1="202" x2="226" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5A623"/>
+      <stop offset=".3" stop-color="#E4DE18"/>
+      <stop offset=".62" stop-color="#A9D52A"/>
+      <stop offset="1" stop-color="#2D9E45"/>
+    </linearGradient>
+    <linearGradient id="leafGradient" x1="126" y1="76" x2="190" y2="177" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E4DE18"/>
+      <stop offset=".45" stop-color="#A9D52A"/>
+      <stop offset="1" stop-color="#43B649"/>
+    </linearGradient>
+    <linearGradient id="leftLeafGradient" x1="96" y1="122" x2="143" y2="174" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C9DD20"/>
+      <stop offset="1" stop-color="#43B649"/>
+    </linearGradient>
+    <linearGradient id="rightLeafGradient" x1="198" y1="122" x2="150" y2="174" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B8D92A"/>
+      <stop offset="1" stop-color="#43B649"/>
+    </linearGradient>
+    <linearGradient id="baseGradient" x1="77" y1="195" x2="204" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5A623"/>
+      <stop offset=".5" stop-color="#E4DE18"/>
+      <stop offset="1" stop-color="#F5B52A"/>
+    </linearGradient>
+  </defs>
+
+  <path
+    d="M78 190
+       C58 171 52 143 61 116
+       C71 82 100 60 134 57
+       C171 54 204 73 220 104
+       C236 135 228 170 207 193
+       C191 211 168 221 143 222"
+    fill="none"
+    stroke="url(#ringGradient)"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M143 174
+       C130 151 129 106 145 76
+       C162 103 163 143 148 174
+       C147 176 145 176 143 174Z"
+    fill="url(#leafGradient)"
+  />
+  <path
+    d="M145 164 C145 137 145 106 145 83"
+    fill="none"
+    stroke="#EAF06B"
+    stroke-width="2.2"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M141 174
+       C119 173 97 157 93 126
+       C119 129 137 145 141 174Z"
+    fill="url(#leftLeafGradient)"
+  />
+  <path
+    d="M99 133 C114 145 128 158 138 171"
+    fill="none"
+    stroke="#C8E35B"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M149 174
+       C153 146 171 129 200 126
+       C197 155 178 172 149 174Z"
+    fill="url(#rightLeafGradient)"
+  />
+  <path
+    d="M194 133 C179 146 164 159 152 171"
+    fill="none"
+    stroke="#C8E35B"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M145 197
+       C129 185 115 169 108 153
+       C128 159 142 175 148 193Z"
+    fill="#43B649"
+  />
+  <path
+    d="M149 197
+       C163 178 177 165 190 157
+       C185 178 170 192 149 197Z"
+    fill="#43B649"
+  />
+  <path
+    d="M145 196 C145 184 145 176 145 167"
+    fill="none"
+    stroke="#329E43"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M77 190
+       C94 196 113 202 132 202
+       C152 202 168 195 181 183
+       C188 176 195 169 203 169
+       C200 183 191 195 179 203
+       C161 215 137 219 113 214
+       C96 210 83 202 77 190Z"
+    fill="url(#baseGradient)"
+  />
+  <path
+    d="M143 204
+       C157 202 169 197 177 190
+       C181 187 185 187 188 190
+       C181 198 168 205 154 208
+       C149 209 145 207 143 204Z"
+    fill="#FFFFFF"
+  />
+</svg>
