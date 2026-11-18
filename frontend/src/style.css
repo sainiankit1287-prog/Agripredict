@@ -2,6 +2,20 @@
 
 :root { font-family: "DM Sans", Inter, ui-sans-serif, system-ui, sans-serif; color: #143b2a; background: #f6f8f3; }
 * { box-sizing: border-box; } body { margin: 0; } button, input { font: inherit; } button { cursor: pointer; } button:focus-visible, input:focus-visible { outline: 3px solid #b7d86a; outline-offset: 2px; }
+.auth-shell { min-height: 100vh; display: grid; place-items: center; padding: 24px; background: linear-gradient(145deg, #eef5ea 0%, #f8faf6 55%, #edf4e8 100%); }
+.auth-card { width: min(100%, 440px); padding: 34px; border: 1px solid #dde8da; border-radius: 20px; text-align: center; background: #fff; box-shadow: 0 18px 50px #1c482618; }
+.auth-card .brand-logo { width: 58px; height: 58px; margin: 0 auto 10px; }
+.auth-card h1 { margin: 8px 0 8px; color: #123c29; font-size: 2.6rem; letter-spacing: -.06em; }
+.intro { margin: 0 0 24px; color: #708074; line-height: 1.6; }
+.tabs { display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 20px; padding: 4px; border-radius: 10px; background: #eef4eb; }
+.tabs button { height: 42px; border: 0; border-radius: 7px; color: #607a66; background: transparent; font-weight: 700; }
+.tabs button.active { color: #17653b; background: white; box-shadow: 0 2px 8px #17351f12; }
+.auth-card form { display: grid; gap: 14px; text-align: left; }
+.auth-card form label { display: grid; gap: 7px; color: #456250; font-size: .84rem; font-weight: 600; }
+.auth-card form input { width: 100%; height: 48px; border: 1px solid #d7e2d5; border-radius: 9px; padding: 0 13px; color: #234832; background: #fbfdf9; }
+.auth-card form input:focus { border-color: #63a66a; box-shadow: 0 0 0 3px #dff0dc; outline: 0; }
+.primary { height: 48px; border: 0; border-radius: 9px; color: white; background: #17653b; font-weight: 700; }
+.primary:hover { background: #0f512f; }
 .dashboard { min-height: 100vh; max-width: 1320px; margin: auto; padding: 24px 32px 20px; }
 .topbar { height: 72px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #e3eadd; }
 .brand-heading { display: flex; align-items: center; gap: 10px; } .brand-logo { display: block; width: 44px; height: 44px; object-fit: contain; } .brand-heading h1 { margin: 2px 0 0; font-size: 1.45rem; letter-spacing: -.04em; } .eyebrow { margin: 0; color: #39804d; font-size: .74rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }

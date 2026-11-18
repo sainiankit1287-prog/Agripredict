@@ -18,7 +18,7 @@ const initialValues = { N: "90", P: "42", K: "43", temperature: "20.8", humidity
 async function request(path, options = {}, token) {
   const response = await fetch(`${API_URL}${path}`, {
     ...options,
-    headers: { "Content-Type": "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+    headers: { "Content-Type": "application/json", ...(token ? { Authorization: "Bearer " + token } : {}) },
   });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data.detail || "Something went wrong.");
